@@ -4,7 +4,6 @@ Feature: Bad usage
 	I can ignore the message displayed by the machine
 	So I can have coffee and let other people have to clean after me
 
-
 	@BDDTEST-MCA-3
 	@BDDVER--1
 	@BDDCYC-12b6e31a-750b-403c-b180-ad0dace72950
