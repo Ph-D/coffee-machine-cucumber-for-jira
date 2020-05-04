@@ -16,7 +16,7 @@ header "push results to living documentation"
 # Set here the Curl command of CI Settings in the living documentation tab
 
 # curl -X POST https://c4j.cucumber.io/ci/rest/api/results -H 'authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb20uc21hcnRiZWFyLmN1Y3VtYmVyIiwiYXVkIjoiY2kiLCJjb250ZXh0Ijp7ImxpdmluZ19kb2NfaWQiOjMwNX0sImlhdCI6MTU3MTEyNTE5MX0.FGa9rMMq6IVdyQYbjKi_ZDCWTUgV0VNXYmsdR1oyevE' -H 'content-type: multipart/form-data' -F results_file=@results.json -F language=ruby
-curl -X POST https://c4j.cucumber.io/ci/rest/api/results -H 'authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb20uc21hcnRiZWFyLmN1Y3VtYmVyIiwiYXVkIjoiY2kiLCJjb250ZXh0Ijp7ImxpdmluZ19kb2NfaWQiOjMxMn0sImlhdCI6MTU3MTk0NTIwMX0.L4zBPNo8kugsGXMVxCW9sFOprQ2s3faSZaS78uW5dDQ' -H 'content-type: multipart/form-data' -F results_file=@results.json -F language=ruby
+curl -X POST https://c4j.cucumber.io/ci/rest/api/results -H 'authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb20uc21hcnRiZWFyLmN1Y3VtYmVyIiwiYXVkIjoiY2kiLCJjb250ZXh0Ijp7ImxpdmluZ19kb2NfaWQiOjk1MH0sImlhdCI6MTU4ODU4NDYwOX0.K_xk5wQn425oh758E5GLHNXn2D5igbYpZtkbk3zcWEA' -H 'content-type: multipart/form-data' -F results_file=@results.json -F language=ruby
 echo ""
 
 header "Push results to test cycle"

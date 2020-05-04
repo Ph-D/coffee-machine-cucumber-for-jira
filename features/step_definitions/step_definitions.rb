@@ -80,6 +80,6 @@ When /^I switch to settings mode$/ do
 end
 
 Then /^settings should be:$/ do |__datatable|
-#  expect("OK").to eq "KO"
-  settings_should_be(__datatable)
+  expect("OK").to eq "KO"
+  #settings_should_be(__datatable)
 end
